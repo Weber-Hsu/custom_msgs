@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   geometry_msgs
+  apriltag_ros
 )
 
 # Message file
@@ -24,8 +25,7 @@ add_message_files(
   FILES
     ScanMatchingStatus.msg
     AprilTagDetection.msg
-    AprilTagDetectionArray
-
+    AprilTagDetectionArray.msg
 )
 
 generate_messages(
