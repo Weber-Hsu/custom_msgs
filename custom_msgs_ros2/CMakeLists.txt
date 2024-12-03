@@ -18,7 +18,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ScanMatchingStatus.msg"
   "msg/AprilTagDetection.msg"
-  "msg/AprilTagDetectionArray"
+  "msg/AprilTagDetectionArray.msg"
   DEPENDENCIES geometry_msgs std_msgs
  )
 
