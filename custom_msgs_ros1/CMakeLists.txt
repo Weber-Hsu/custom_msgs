@@ -23,6 +23,9 @@ add_message_files(
     msg
   FILES
     ScanMatchingStatus.msg
+    AprilTagDetection.msg
+    AprilTagDetectionArray
+
 )
 
 generate_messages(
